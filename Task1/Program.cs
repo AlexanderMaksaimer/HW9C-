@@ -11,8 +11,8 @@ int GetDemension(string message)
     return demension;
 }
 
-
-void PrintArrayFromMtoN(int m, int n, int k) // третяя переменная чисто для "расивого вывода"
+//печатаем массив из натуральных чисел из указанного промежутка (М и N)
+void PrintArrayFromMtoN(int m, int n, int k) 
 {
     if ( n == m ) Console.Write($"'{m}, ");
     else 
